@@ -1,4 +1,4 @@
-.container {
+.app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,6 +6,7 @@
   background-size: cover;
   height: 100vh;
 }
+
 .heading {
   color: #ffffff;
   font-family: 'Roboto';
@@ -20,6 +21,7 @@
     margin-top: 150px;
   }
 }
+
 .carousel-container {
   display: flex;
   align-items: center;
@@ -39,12 +41,14 @@
   cursor: pointer;
   outline: none;
 }
+
 .review-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 300px;
 }
+
 .username {
   color: #ffffff;
   font-family: 'Roboto';

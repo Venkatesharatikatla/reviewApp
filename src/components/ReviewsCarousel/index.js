@@ -47,7 +47,7 @@ class ReviewsCarousel extends Component {
     const currentReviewDetails = reviewsList[activeReviewIndex]
 
     return (
-      <div className="container">
+      <div className="app-container">
         <h1 className="heading">Reviews</h1>
         <div className="carousel-container">
           <button
@@ -78,4 +78,5 @@ class ReviewsCarousel extends Component {
     )
   }
 }
+
 export default ReviewsCarousel
